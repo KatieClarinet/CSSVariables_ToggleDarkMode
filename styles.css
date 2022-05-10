@@ -1,0 +1,44 @@
+:root {
+    --background-color: #f9d5e5;
+    --h1-color: #c83349;
+    --h2-color: #e06377;
+    --h3-color: #eeac99;
+    --h4-color: white;
+    }
+
+h1 {
+    color: var(--h1-color);
+}
+
+h2 {
+    color: var(--h2-color);
+}
+h3 {
+    color: var(--h3-color)
+}
+body {
+background-color: var(--background-color);
+}
+
+h4 {
+    color: var(--h4-color)
+}
+
+
+.dark-mode-theme {
+    --background-color: black;
+    --h1-color: rgb(0, 87, 0);
+    --h2-color: white;
+    --h3-color: white;
+    --h4-color: white;
+  }
+
+  #container {
+      text-align: center;
+  }
+
+  button {
+    color: var(--h1-color);
+      border-radius: 25px;
+      padding: 10px;
+  }
